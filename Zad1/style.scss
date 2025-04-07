@@ -1,0 +1,163 @@
+$font-size: 16px;
+$title-size: $font-size * 2;
+$section-size: $font-size * 1.5;
+$prime-color: #000000;
+$second-color: #ddeeb4;
+$border-width: 2px;
+$margin-width: 20px;
+$gap-width: 20px;
+
+body, html {
+    font-size: $font-size;
+    color: $prime-color;
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin: 2 * $margin-width;
+}
+
+header {
+    font-size: $title-size;
+    color: $prime-color;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-right: $margin-width;
+}
+
+.hamburger {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: $gap-width;
+}
+
+nav a {
+    text-decoration: none;
+    color: $prime-color;
+    font-size: $font-size;
+}
+
+.container {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0;
+    margin: $margin-width;
+}
+
+.card {    
+    background-color: $second-color;
+    font-size: $section-size;
+    border-color: $prime-color;
+    border-style: solid;
+    border-width: 2px;
+    border-color: $prime-color;
+    margin: $margin-width;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    border-color: $prime-color;
+    align-self: end;
+    margin-top: 0;
+    padding: 1% 50px;
+    border-style: solid;
+    border-width: 0px 0px 2px 2px;
+}
+
+h2.lorem { background-color: #69D2E8; }
+h2.ipsum { background-color: #F38632; }
+h2.dolor { background-color: #E9AEAE; }
+
+section {
+    margin: 15px;
+    text-align: justify;
+}
+
+footer {
+    font-size: $font-size;
+    color: $prime-color;
+    background-color: $second-color;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color: $prime-color;
+    min-height: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p { margin: 0; }
+h3 { margin: 0; }
+
+// Tablet
+@media only screen and (min-width:601px) and (max-width:1024px) {
+    nav a {
+        display: none;
+    }
+
+    .container{
+        grid-template-columns: repeat(2,1fr);
+      }
+    .card:first-child {
+          grid-column: span 2;
+    }
+  
+
+    .hamburger {
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-color: $second-color;
+        padding: 15px;
+        border-radius: 25px;
+        border-color: $prime-color;
+        border-style: solid;
+        border-width: 2px;
+    }    
+}
+
+// Telefon
+@media only screen and (max-width: 600px) {
+    nav a {
+        display: none;
+    }
+
+    .top h3 {
+        display: none;
+    }
+
+    .container{
+        grid-template-columns: repeat(1,1fr);
+      }
+      .card:first-child {
+        grid-column: span 1;
+  }
+
+  .hamburger {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: $second-color;
+    padding: 15px;
+    border-radius: 25px;
+    border-color: $prime-color;
+    border-style: solid;
+    border-width: 2px;
+    }    
+}

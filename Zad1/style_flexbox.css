@@ -1,0 +1,148 @@
+body, html {
+  font-size: 16px;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+  margin-bottom: 0;
+}
+
+header {
+  font-size: 32px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.hamburger {
+  display: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+}
+
+nav {
+  text-decoration: none;
+  display: flex;
+  gap: 20px;
+}
+
+.container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 0;
+  padding: 0;
+  margin: 20px;
+}
+
+.card {
+  background-color: #ddeeb4;
+  font-size: 24px;
+  border-color: #000000;
+  width: calc(30% - 20px);
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  border-color: #000000;
+  align-self: end;
+  margin-top: 0;
+  padding: 1% 15%;
+  border-style: solid;
+  border-width: 0px 0px 2px 2px;
+}
+
+h2.lorem {
+  background-color: #7af0ff;
+}
+
+h2.ipsum {
+  background-color: #ffdc7a;
+}
+
+h2.dolor {
+  background-color: #ff7abc;
+}
+
+section {
+  margin: 15px;
+  text-align: justify;
+}
+
+footer {
+  font-size: 16px;
+  color: #000000;
+  background-color: #ddeeb4;
+  border-style: solid;
+  border-width: 2px 0px 0px 0px;
+  border-color: #000000;
+  min-height: 125px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  nav a {
+    display: none;
+  }
+  .card:nth-child(1) {
+    flex-basis: 100%;
+  }
+  .card:nth-child(n+2) {
+    flex-basis: calc(50% - 44px);
+  }
+  .hamburger {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #ddeeb4;
+    padding: 15px;
+    border-radius: 25px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+  }
+}
+@media (max-width: 768px) {
+  .top h3 {
+    display: none;
+  }
+  .card:nth-child(n) {
+    flex-basis: 100%;
+  }
+}/*# sourceMappingURL=style_flexbox.css.map */

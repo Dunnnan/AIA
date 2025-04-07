@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Game Deals</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="./styles/styles.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header>            
+            <h1>Game Deals</h1>
+        </header>
+
+        <main>
+
+            <div class="search">
+                <h3>Search</h3>
+                <input type="search" placeholder="Game title">
+                
+                <details>
+
+                    <summary>Filters</summary>
+
+                    <label>
+                        <input type="range" min="0" max="100">
+                        Discount
+                    </label>
+
+                    <label>
+                        <input type="range" min="0" max="100">
+                        Metacritic score
+                    </label>
+
+                    <label>
+                        Stores
+                        <input type="checkbox" class="storeFilter" value="Steam"> Steam
+                        <input type="checkbox" class="storeFilter" value="GOG"> Steam
+                        <input type="checkbox" class="storeFilter" value="Epic"> Steam
+                        <input type="checkbox" class="storeFilter" value=""> Steam
+                        <input type="checkbox" class="storeFilter" value="1"> Steam
+                        <input type="checkbox" class="storeFilter" value="1"> Steam
+                        <input type="checkbox" class="storeFilter" value="1"> Steam
+                        <input type="checkbox" class="storeFilter" value="1"> Steam
+                        <input type="checkbox" class="storeFilter" value="1"> Steam
+                        <input type="checkbox" class="storeFilter" value="1"> Steam
+                        <input type="checkbox" class="storeFilter" value="1"> Steam
+                        <input type="checkbox" class="storeFilter" value="1"> Steam
+                        <input type="checkbox" class="storeFilter" value="1"> Steam
+                        <input type="checkbox" class="storeFilter" value="1"> Steam
+                        <input type="checkbox" class="storeFilter" value="1"> Steam
+                        <input type="checkbox" class="storeFilter" value="1"> Steam
+
+                    </label>
+
+
+                </details>
+            </div>
+
+            <div class="cards" id="cards">
+
+                <div class="container"> 
+                    <img src="https://i.pinimg.com/736x/e6/5f/fa/e65ffad9fc1408c402b71a6ab2ef0285.jpg">
+                    <p><strong>Nothings new</strong></p>
+                    <p>Discount</p>
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer>
+            <h3>Maciej Wrzesień</h3>
+        </footer>
+
+      <script type="module" src="app.js"></script>
+    </body>
+</html>

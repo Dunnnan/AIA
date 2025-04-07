@@ -1,0 +1,158 @@
+body, html {
+  font-size: 16px;
+  color: #000000;
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+
+header {
+  font-size: 32px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.hamburger {
+  display: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0;
+  margin: 20px;
+}
+
+.card {
+  background-color: #ddeeb4;
+  font-size: 24px;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  border-color: #000000;
+  align-self: end;
+  margin-top: 0;
+  padding: 1% 50px;
+  border-style: solid;
+  border-width: 0px 0px 2px 2px;
+}
+
+h2.lorem {
+  background-color: #69D2E8;
+}
+
+h2.ipsum {
+  background-color: #F38632;
+}
+
+h2.dolor {
+  background-color: #E9AEAE;
+}
+
+section {
+  margin: 15px;
+  text-align: justify;
+}
+
+footer {
+  font-size: 16px;
+  color: #000000;
+  background-color: #ddeeb4;
+  border-style: solid;
+  border-width: 2px 0px 0px 0px;
+  border-color: #000000;
+  min-height: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  nav a {
+    display: none;
+  }
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card:first-child {
+    grid-column: span 2;
+  }
+  .hamburger {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #ddeeb4;
+    padding: 15px;
+    border-radius: 25px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  nav a {
+    display: none;
+  }
+  .top h3 {
+    display: none;
+  }
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card:first-child {
+    grid-column: span 1;
+  }
+  .hamburger {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #ddeeb4;
+    padding: 15px;
+    border-radius: 25px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+  }
+}/*# sourceMappingURL=style.css.map */

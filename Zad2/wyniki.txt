@@ -1,0 +1,245 @@
+       Price | Rating       |        Pages |   Unit Value | Title       
+     28.50zł | 4.33       |        120 |       0.05zł | Domestic Fluff
+     25.72zł | 5.00       |         68 |       0.08zł | Gdzie jest Johnny? Cyberpunk 2077. Tom 3
+     34.21zł | 4.40       |        208 |       0.04zł | W ukryciu. Wied mag. Tom 2
+     19.77zł | 4.90       |        320 |       0.01zł | Heartstopper. Tom 2
+     32.16zł | 4.60       |        192 |       0.04zł | After. Powie   graficzna. Tom 1
+     35.17zł | 4.80       |        256 |       0.03zł | Dziewczyna z g  bi oceanu
+     26.25zł | 5.00       |        240 |       0.02zł | Dogman. Tom 1
+     32.12zł | 4.30       |        192 |       0.04zł | After. Powie   graficzna. Tom 2
+     35.17zł | 4.30       |        208 |       0.04zł | Zimowe przesilenie. Wied mag. Tom 3
+     25.99zł | 5.00       |        224 |       0.02zł | Szkar atna obro a. Dogman. Tom 12
+     27.49zł | 5.00       |        128 |       0.04zł | S owia skie mity i opowie ci w komiksie. Naukomiks
+     32.18zł | 5.00       |        128 |       0.05zł | Pierwiastki - tajemnice cz stek buduj cych  wiat. Naukomiks
+     19.81zł | 4.50       |        112 |       0.04zł | Bicz. Pocz tek legendy. Wojownicy. Manga. Tom 1
+     56.74zł | 4.50       |        112 |       0.11zł | Pakiet  cie ka Kruczej  apy. Cz   1-3. Wojownicy. Manga. Tomy 8-10: Zm cony spok j, Klan w potrzebie, Serce wojownika
+     25.42zł | 4.80       |        320 |       0.02zł | Heartstopper. Tom 5
+     30.69zł | 4.80       |        128 |       0.05zł | Wulkany - ogie  i  ycie. Naukomiks
+     32.18zł | 5.00       |        128 |       0.05zł | Uk ad S oneczny - nasze miejsce w kosmosie. Naukomiks
+     36.25zł | 4.80       |        288 |       0.03zł | True Beauty. Tom 1
+     28.60zł | 5.00       |         96 |       0.06zł | Mitologia Grek w i Rzymian w komiksie
+      5.59zł | 5.00       |         56 |       0.02zł | Podr  do  wier  ko a  wiata. Tytus, Romek i A’Tomek. Ksi ga V
+     36.25zł | 4.90       |        272 |       0.03zł | True Beauty. Tom 2
+     31.49zł | 5.00       |        128 |       0.05zł | Detektyw Wr bel i tajemniczy przybysze
+     20.80zł | 5.00       |         60 |       0.07zł | Biuro detektywistyczne Lassego i Mai. Sabota  w punkcie skupu i inne komiksy
+      5.59zł | 5.00       |         54 |       0.02zł | Tytus poprawia dw jk  z geografii Polski. Tytus, Romek i A’Tomek. Ksi ga VII
+      5.59zł | 4.00       |         56 |       0.02zł | Tytus na Dzikim Zachodzie. Tytus, Romek i A’Tomek. Ksi ga IX
+     20.19zł | 4.60       |        224 |       0.02zł | Na przek r. Superkot. Klub komiksowy. Tom 3
+     69.11zł | 5.00       |        312 |       0.04zł | Wied min  
+     36.25zł | 5.00       |        288 |       0.03zł | True Beauty. Tom 4
+     36.25zł | 5.00       |        288 |       0.03zł | True Beauty. Tom 3
+     32.11zł | 5.00       |        128 |       0.05zł | Zwariowana pogoda - burze, meteorologia i klimat. Naukomiks
+     22.68zł | 5.00       |         96 |       0.05zł | #przyja   #zakochanie #m jrok. Mira. Tom 1
+     45.90zł | 4.70       |        176 |       0.06zł | Diuna. Powie   graficzna. Ksi ga 1
+      5.59zł | 3.00       |         56 |       0.03zł | Ochrona przyrody. Tytus, Romek i A’Tomek. Ksi ga X
+     22.56zł | 5.00       |        102 |       0.04zł | Czerwona maska. Podr cznik dla Superbohater w. Tom 2
+      9.99zł | 5.00       |        176 |       0.01zł | II Wojna Zwiastun w
+     35.51zł | 5.00       |        176 |       0.04zł | Elektra   
+     31.31zł | 5.00       |        224 |       0.03zł | Nie zapomnij mnie
+     25.99zł | 4.70       |        248 |       0.02zł |  winka wysokich lot w. Batpig. Tom 2
+     69.06zł | 5.00       |        392 |       0.04zł | Ekspedycja. Bogowie z kosmosu. Wydanie kolekcjonerskie
+     52.33zł | 4.80       |        336 |       0.03zł | Normalsi  
+     55.51zł | 4.00       |        264 |       0.05zł | Historia filozofii od Kartezjusza do wsp czesno ci.  wiat Zofii. Tom 2
+     24.98zł | 5.00       |         96 |       0.05zł | #tata #mi o   #domnabarce. Mira. Tom 2
+     48.01zł | 4.50       |        380 |       0.03zł | Saga winlandzka. Tom 10
+     39.55zł | 4.60       |        352 |       0.02zł | Ksi ycowy Nowy Rok. Historia mi osna
+     51.29zł | 5.00       |        248 |       0.04zł | Ogie  olimpijski i inne historie z roku 1964. Kaczogr d
+     21.18zł | 4.70       |         64 |       0.07zł | Game over. Louca. Tom 9
+     27.78zł | 4.40       |        240 |       0.03zł | Zosta  moj  gwiazd 
+     22.45zł | 5.00       |         68 |       0.07zł | Ze wszystkich si . Pi   Krain. Tom 1
+     20.96zł | 4.00       |         56 |       0.09zł | E-sport. Louca. Tom 8
+     50.07zł | 5.00       |        368 |       0.03zł | Zaginiony ksi   . Hooky. Tom 2
+     19.91zł | 5.00       |         64 |       0.06zł | Nasz dom: Uk ad S oneczny. Nauka z komiksem. Galaktyki i planety. Tom 2
+     20.07zł | 5.00       |         64 |       0.06zł | Pocz tek wszystkiego. Nauka z komiksem. Galaktyki i planety. Tom 1
+     21.10zł | 5.00       |         64 |       0.07zł | Feniksy. Louca. Tom 5
+     21.18zł | 4.50       |         64 |       0.07zł | Nadzieja uskrzydla. Louca. Tom 4
+     33.63zł | 5.00       |         64 |       0.11zł | 24 godziny w kosmosie
+     21.18zł | 4.00       |         56 |       0.09zł | Oby si  uda o. Louca. Tom 3
+     27.00zł | 3.50       |        184 |       0.04zł | Siostry wrony.  wiat a P nocy. Tom 3
+     40.45zł | 4.00       |        380 |       0.03zł | Saga winlandzka. Tom 9
+     60.88zł | 5.00       |        244 |       0.05zł | Muminki. Tom 2
+     67.62zł | 4.00       |         88 |       0.19zł | Dziewi    
+     46.90zł | 4.00       |        120 |       0.10zł | Cavalieri. Mi o   Micha a Anio a
+     24.09zł | 5.00       |         96 |       0.05zł | #arty ci #rodzina #poca unek. Mira. Tom 3
+     31.92zł | 4.50       |         64 |       0.11zł | Beret i Kapot. Inspektor Anton
+     38.49zł | 5.00       |        144 |       0.05zł | Duma i uprzedzenie
+     21.35zł | 5.00       |         56 |       0.08zł | Tiss z Bractwa Tarczy.  wiat Akwilonu. Krasnoludy. Tom 5
+     21.87zł | 4.50       |         64 |       0.08zł | Najmniej spodziewany zwrot akcji. Wied mun. Tom 3
+     28.07zł | 3.00       |        120 |       0.08zł | Bitwa o W ow  Koron . Conan
+     93.22zł | 4.00       |        200 |       0.12zł | Pi ta ewangelia Wydanie zbiorcze
+     20.75zł | 4.70       |         64 |       0.07zł | Przed wypraw  zbierz dru yn . Wied mun. Tom 2
+     40.45zł | 5.00       |        430 |       0.02zł | Saga winlandzka. Tom 6
+     40.45zł | 5.00       |        424 |       0.02zł | Saga winlandzka. Tom 2
+     19.94zł | 5.00       |         56 |       0.07zł | Po wi cenie. FRNCK. Tom 3
+     38.94zł | 5.00       |         96 |       0.08zł | Sz stka. Stranger Things. Tom 2
+     18.20zł | 4.00       |         68 |       0.07zł | Twarz  w twarz. Louca. Tom 2
+     30.31zł | 4.50       |        208 |       0.03zł | Wielki Gatsby
+     22.96zł | 4.00       |         32 |       0.18zł | Dzielny Kosmatek Ba agan w ogrodzie
+     22.38zł | 4.00       |        148 |       0.04zł | Uczennica Wyroczni.  wiat a P nocy. Tom 2
+     22.80zł | 4.00       |        152 |       0.04zł | To samo   Osborna. Amazing Spider Man. Globalna sie . Tom 6
+     17.49zł | 4.00       |         48 |       0.09zł | Na podb j Oklahomy. Lucky Luke. Tom 14
+     33.23zł | 5.00       |         56 |       0.12zł | Arktyczni. Blacksad. Tom 2
+     25.44zł | 5.00       |         48 |       0.11zł | Po r d cieni. Blacksad. Tom 1
+     15.25zł | 4.00       |         48 |       0.08zł | W poszukiwaniu Pietrostwora. Oto Tosia. Tom 1
+     52.40zł | 5.00       |        176 |       0.06zł | Valerian. Wydanie zbiorcze. Tom 7
+     26.94zł | 5.00       |         58 |       0.09zł | Piek o, spok j. Blacksad. Tom 4
+     43.95zł | 4.00       |        184 |       0.06zł | Radiant Black. Tom 1
+    122.05zł | 5.00       |        168 |       0.15zł | Goldorak  
+     39.91zł | 4.00       |        112 |       0.09zł | B d my w kontakcie. Giant Days. Tom 14
+     39.90zł | 3.00       |         96 |       0.14zł | Smocza krew
+    111.98zł | 5.00       |        304 |       0.07zł | Hombre. Ksi ga II
+     45.99zł | 3.00       |        336 |       0.05zł | Odcienie magii. Stalowy Ksi   
+     24.65zł | 5.00       |        144 |       0.03zł | Bepa i Ziemianin. Misja profesora
+    100.52zł | 5.00       |        192 |       0.10zł | Legendy Zachodu Buffalo Bill Dziki Bill Hickok Butch Cassidy i Dzika Banda
+     55.70zł | 4.50       |        106 |       0.12zł | Mulanosaurus Rex
+     18.52zł | 3.00       |        160 |       0.04zł | Za arte starcie. Superman kontra Meshi. Tom 1
+     21.83zł | 4.00       |        208 |       0.03zł | Pizazz. Tom 1
+     46.03zł | 4.00       |        112 |       0.10zł | Godzilla. W adcy Ziemi. Tom 1
+     32.42zł | 5.00       |        256 |       0.03zł | Cie  ptasich skrzyde . Lightfall. Tom 2
+     19.99zł | 4.00       |        162 |       0.03zł | 50 cm  ycia. Tom 1
+     26.26zł | 4.80       |        128 |       0.04zł | Krew. Mroczne s siedztwo. Tom 3
+     19.89zł | 5.00       |         64 |       0.06zł | Mi o   ci wszystko wykracze. Arlo i Pips. Tom 3
+     19.93zł | 5.00       |         64 |       0.06zł | Czas gigant w, czyli dinozaury jury. Nauka z komiksem. Era dinozaur w. Tom 2
+     20.11zł | 5.00       |        216 |       0.02zł | Pta ka    
+     45.99zł | 4.80       |        272 |       0.04zł | Nimona    
+     67.36zł | 4.50       |        320 |       0.05zł | Venom. Tom 3
+     46.18zł | 5.00       |         64 |       0.14zł | Ter. Przewodnik. Tom 2
+     19.94zł | 4.00       |         48 |       0.10zł | Bestia powraca! Magiczna 7. Tom 3
+     17.09zł | 4.00       |         64 |       0.07zł | Kr lewna  nie ka i siedmiu krasnoludk w
+     38.94zł | 5.00       |        112 |       0.07zł | Prosto w ogie . Stranger Things. Tom 3
+     38.94zł | 4.50       |         96 |       0.09zł | Po drugiej stronie. Stranger Things. Tom 1
+     40.49zł | 4.60       |        220 |       0.04zł | Martwy Punkt Pr ba obserwatora
+     20.19zł | 4.70       |        206 |       0.02zł | Pe ne zanurzenie. InwestyGatory. Tom 2
+     33.68zł | 4.00       |        120 |       0.07zł | Kres wojny. Thor. Tom 3
+     24.40zł | 4.00       |        144 |       0.04zł | Ciep o, cieplej… zimno! Cedryk. Tom 1
+     59.79zł | 3.80       |        272 |       0.06zł | Gwiezdny Port Powie   Graficzna
+     25.72zł | 5.00       |         32 |       0.16zł | W puszczy. O czym szumi  wierzby. Tom 1
+     22.80zł | 5.00       |         64 |       0.07zł | Metro Baker Street.  ledztwa Enoli Holmes. Tom 6
+     22.80zł | 4.30       |         60 |       0.09zł | Pami tniki Wisienki i Walentyna. Tom 1
+     23.77zł | 5.00       |         28 |       0.17zł | Arcygro ne Domostwory. Mika i wyjec
+     22.96zł | 4.00       |         32 |       0.18zł | Dzielny Kosmatek Super Kosmatek
+     15.25zł | 4.30       |         48 |       0.07zł | Uparty Ikar. Mali Bogowie. Tom 2
+     87.57zł | 5.00       |        436 |       0.04zł | Znany diabe . BBPO
+     30.64zł | 4.00       |         40 |       0.19zł | Duchy w chmurach. Hotel dziwny. Tom 4
+     19.65zł | 4.70       |        184 |       0.02zł | Kod Orcale
+     67.36zł | 4.50       |        340 |       0.04zł | Hitman. Tom 4
+     25.25zł | 4.70       |        273 |       0.02zł | Trasa promocyjna
+     15.22zł | 4.00       |         48 |       0.08zł | Parada przypa  w. Lil i Put. Tom 5
+     12.19zł | 4.50       |         64 |       0.04zł | Smerf naczelnik. Przygody Smerf w. Tom 2
+     45.41zł | 4.50       |        124 |       0.08zł | Divinity  
+     30.23zł | 4.00       |        132 |       0.06zł | Inhumans kontra X-Men. Extraordinary X-Men. Tom 4
+     35.81zł | 3.00       |        180 |       0.07zł | Czas Nienawi ci. Tom 1
+     42.37zł | 3.00       |        176 |       0.08zł | 9 Godzin  
+     15.13zł | 4.50       |        272 |       0.01zł | Ostatnie dzieciaki na Ziemi i co  kosmicznego. Ostatnie dzieciaki na Ziemi. Tom 4
+     23.71zł | 4.00       |        144 |       0.04zł | Psi nos. Pty  i Bill. Tom 4
+     51.00zł | 5.00       |        176 |       0.06zł | Narodziny z oczy cy. Zielony szersze . Tom 2
+     30.64zł | 4.00       |         40 |       0.19zł |  piew Skrzekowyjca. Hotel Dziwny. Tom 2
+     73.26zł | 4.00       |        200 |       0.09zł | Lanfeust z Troy. Tom 1
+     26.54zł | 4.00       |        112 |       0.06zł | Bellmer Niebiografia
+     15.22zł | 3.00       |         48 |       0.11zł | Czaruj ca panna m oda. Lil i Put. Tom 3
+     13.00zł | 3.50       |         40 |       0.09zł | Smocza kraina. Krasnolud Nap. Tom 1
+     45.60zł | 4.50       |        512 |       0.02zł | Niezwyk a historia Marvel Comics
+     22.35zł | 5.00       |        384 |       0.01zł | Heartstopper. Tom 4
+     29.54zł | 4.90       |        384 |       0.02zł | Heartstopper. Tom 3
+     26.25zł | 5.00       |         90 |       0.06zł | Heartstopper. Ksi  ka pe na twoich kolor w
+     29.31zł | 4.70       |        154 |       0.04zł | Heartstopper. Yearbook
+     50.46zł | 4.00       |        160 |       0.08zł | Kraina Sn w. Sandman. Tom 3
+     21.63zł | 4.50       |         48 |       0.10zł | Kajko i Kokosz. Opowie ci z Mirmi owa. Rozr by i romanse
+     63.39zł | 4.50       |        264 |       0.05zł | Niezwyk e losy Sknerusa McKwacza. Wujek Sknerus
+     25.23zł | 5.00       |         60 |       0.08zł | Redwin z Bractwa Ku ni.  wiat Akwilonu. Krasnoludy. Tom 1
+     57.45zł | 4.50       |        192 |       0.07zł | Rze nia numer pi  , czyli krucjata dzieci ca
+     25.23zł | 5.00       |         56 |       0.09zł | Kryszta  Niebieskich Elf w.  wiat Akwilonu. Elfy. Tom 1
+     40.88zł | 4.30       |        364 |       0.03zł | Bloom     
+    105.64zł | 5.00       |        312 |       0.07zł | Rorschach 
+     32.83zł | 5.00       |        240 |       0.03zł | Let's Talk About It
+     85.79zł | 4.80       |        540 |       0.03zł | Za oga promienia
+     37.31zł | 4.50       |        208 |       0.04zł | Znajd  swoj  bratni  dusz . Klub smutnych duch w. Tom 1
+     39.04zł | 4.40       |        256 |       0.03zł | Znajd  swoj  bratni  dusz . Klub smutnych duch w. Tom 2
+     37.27zł | 4.40       |        240 |       0.04zł | Znajd  swoj  bratni  dusz . Klub smutnych duch w. Tom 3
+     36.32zł | 4.50       |         72 |       0.11zł | Kajtek i Koko. Londy ski krymina 
+     63.39zł | 4.70       |        248 |       0.05zł | Dotyk Midasa i inne historie z lat 1961–1962. Kaczogr d
+     44.23zł | 5.00       |        176 |       0.05zł | Moja przyjaci ka Nore
+     41.87zł | 4.90       |        224 |       0.04zł | Bia y ptak. Cudowny ch opak
+     23.79zł | 4.60       |        176 |       0.03zł | Cruella. Czer , biel i czerwie 
+     35.64zł | 5.00       |        320 |       0.02zł | Wszystkie moje queerowe chwile
+     98.61zł | 4.70       |        352 |       0.06zł | Hellblazer. Tom 1
+     29.06zł | 4.50       |         64 |       0.10zł | Agatha Christie. Miss Marple. Hotel Bertram
+     28.03zł | 4.40       |        192 |       0.03zł | Zaginione weso e miasteczko. Opowie   o Dicku Graysonie
+     32.83zł | 3.80       |        160 |       0.05zł | Loteria   
+     22.49zł | 5.00       |         44 |       0.10zł | Szko a latania. Kajko i Kokosz
+     25.08zł | 5.00       |        240 |       0.02zł | Zbrodnia Ikara. Dogman. Tom 9
+     51.49zł | 5.00       |        298 |       0.03zł | Maus. Opowie   ocala ego
+     21.63zł | 4.00       |         88 |       0.06zł | Na pastw  mob w. Minecraft. Tom 3
+
+Top komiksy:  [
+  {
+    price: '19.77',
+    rating: 4.9,
+    pages: 320,
+    unitValue: '0.01',
+    bookTitle: 'Heartstopper. Tom 2'
+  },
+  {
+    price: '9.99',
+    rating: 5,
+    pages: 176,
+    unitValue: '0.01',
+    bookTitle: 'II Wojna Zwiastun w'
+  },
+  {
+    price: '15.13',
+    rating: 4.5,
+    pages: 272,
+    unitValue: '0.01',
+    bookTitle: 'Ostatnie dzieciaki na Ziemi i co  kosmicznego. Ostatnie dzieciaki na Ziemi. Tom 4'
+  },
+  {
+    price: '22.35',
+    rating: 5,
+    pages: 384,
+    unitValue: '0.01',
+    bookTitle: 'Heartstopper. Tom 4'
+  },
+  {
+    price: '26.25',
+    rating: 5,
+    pages: 240,
+    unitValue: '0.02',
+    bookTitle: 'Dogman. Tom 1'
+  },
+  {
+    price: '25.99',
+    rating: 5,
+    pages: 224,
+    unitValue: '0.02',
+    bookTitle: 'Szkar atna obro a. Dogman. Tom 12'
+  },
+  {
+    price: '25.42',
+    rating: 4.8,
+    pages: 320,
+    unitValue: '0.02',
+    bookTitle: 'Heartstopper. Tom 5'
+  },
+  {
+    price: '5.59',
+    rating: 5,
+    pages: 56,
+    unitValue: '0.02',
+    bookTitle: 'Podr  do  wier  ko a  wiata. Tytus, Romek i A’Tomek. Ksi ga V'
+  },
+  {
+    price: '5.59',
+    rating: 5,
+    pages: 54,
+    unitValue: '0.02',
+    bookTitle: 'Tytus poprawia dw jk  z geografii Polski. Tytus, Romek i A’Tomek. Ksi ga VII'
+  },
+  {
+    price: '5.59',
+    rating: 4,
+    pages: 56,
+    unitValue: '0.02',
+    bookTitle: 'Tytus na Dzikim Zachodzie. Tytus, Romek i A’Tomek. Ksi ga IX'
+  }
+]

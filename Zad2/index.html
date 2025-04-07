@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TODO List</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header>            
+            <h1>TODO List</h1>
+        </header>
+
+
+        <main>
+            <div class="button-container">
+                <button onclick="addRow()">New task</button>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Priority</th>
+                        <th>Due to</th>
+                    </tr>
+                </thead>
+                <tbody id="taskTable">
+                </tbody>
+            </table>
+        </main>
+
+        <footer>
+            <h3>Maciej Wrzesień</h3>
+        </footer>
+
+      <script src="script.js"></script>
+    </body>
+</html>
