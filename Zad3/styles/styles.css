@@ -42,6 +42,31 @@ input {
     margin: 25px;
 }
 
+.discount {
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgb(255, 208, 208);
+    transition: 1.0s ease;
+    text-decoration: solid;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.container:hover .discount,
+.discount:hover {
+    filter: saturate(250%);
+    border-width: 2px;
+    transform: rotate3d(1,0,0,360deg) scale(1.25);
+    
+    box-shadow: 
+        0 0 5px rgb(255, 208, 208),
+        0 0 30px rgb(255, 208, 208),
+        0 0 50px rgb(255, 208, 208),
+        0 0 150px rgb(255, 208, 208);
+
+}
+
 .container {
     max-width: 200px;
 
@@ -54,12 +79,16 @@ input {
     border-radius: 25px;
     background-color: aliceblue;
     transition: 0.25s ease;
+    border-style: solid;
+    border-width: 1px;
 
 }
 
 .container:hover {
     cursor: pointer;
     background-color: cornflowerblue;
+    filter: saturate(150%);
+
     transform: scale(1.2);
     box-shadow: 
         0 0 5px cornflowerblue,
@@ -72,7 +101,8 @@ input {
     max-width: 200px;
     border-radius: 25px;
     margin-bottom: 15px;
-
+    border-style: solid;
+    border-width: 1px;
 }
 
 .container-text {
@@ -106,6 +136,39 @@ input {
     border-radius: 25px;
     background-color: aliceblue;
 
+}
+
+label {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+#gameSearch {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 15px 0;
+    width: 25%;
+    height: 15%;
+}
+
+/* Button styling */
+#reloadButton {
+    margin: 15px;
+    background-color: rgb(209, 228, 244);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+    text-decoration: solid;
+    transition: background-color ease 0.3s;
+}
+
+#reloadButton:hover {
+    background-color: cornflowerblue;
 }
 
 .loading {

@@ -16,7 +16,7 @@ export async function loadDealsList(url) {
             <img src="${deal.thumb}">
             <div class="container-text">
                 <p><strong>${deal.title}</strong></p>
-                <p>-${Math.trunc(deal.savings)}%</p>
+                <p class="discount">-${Math.trunc(deal.savings)}%</p>
             <div>
             `;
 
