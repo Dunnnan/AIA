@@ -5,7 +5,7 @@ export async function loadDealsDetails(deal) {
         mainContainer.innerHTML = ``;
         
         const card = document.createElement('div');
-        card.className = 'container'
+        card.className = 'container-details'
         
         const storeName = await getStoreName(deal.storeID);
         const storeLogo = await getStoreLogo(deal.storeID);

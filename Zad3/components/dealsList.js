@@ -1,6 +1,9 @@
 import { loadDealsDetails } from "./dealsDetails.js";
+import { fetchData } from "../services/api.js";
 
-export function loadDealsList(deals) {
+export async function loadDealsList(url) {
+    const deals = await fetchData(url);
+
     const mainContainer = document.getElementById('cards')
     mainContainer.innerHTML = ``;
     

@@ -24,41 +24,32 @@
                     <summary>Filters</summary>
 
                     <label>
-                        <input type="range" min="0" max="100">
-                        Discount
+                        <input id="upperFilter" type="range" min="0" max="100" step="25" value="0">
+                        Upper price
                     </label>
 
                     <label>
-                        <input type="range" min="0" max="100">
+                        <input id="metacriticFilter" type="range" min="0" max="100" step="25" value="0">
                         Metacritic score
                     </label>
 
                     <label>
-                        Stores
-                        <input type="checkbox" class="storeFilter" value="Steam"> Steam
-                        <input type="checkbox" class="storeFilter" value="GOG"> Steam
-                        <input type="checkbox" class="storeFilter" value="Epic"> Steam
-                        <input type="checkbox" class="storeFilter" value=""> Steam
-                        <input type="checkbox" class="storeFilter" value="1"> Steam
-                        <input type="checkbox" class="storeFilter" value="1"> Steam
-                        <input type="checkbox" class="storeFilter" value="1"> Steam
-                        <input type="checkbox" class="storeFilter" value="1"> Steam
-                        <input type="checkbox" class="storeFilter" value="1"> Steam
-                        <input type="checkbox" class="storeFilter" value="1"> Steam
-                        <input type="checkbox" class="storeFilter" value="1"> Steam
-                        <input type="checkbox" class="storeFilter" value="1"> Steam
-                        <input type="checkbox" class="storeFilter" value="1"> Steam
-                        <input type="checkbox" class="storeFilter" value="1"> Steam
-                        <input type="checkbox" class="storeFilter" value="1"> Steam
-                        <input type="checkbox" class="storeFilter" value="1"> Steam
+                        <input id="steamFilter" type="range" min="0" max="10" step="2.5" value="0">
+                        Steam score
                     </label>
+
+
                 </details>
                     <button id="reloadButton">Back</button>
             </div>
 
+            <div id="loadingSpinner" class="loading" style="display: none;">
+                Loading, please wait...
+            </div>
+
             <div class="cards" id="cards">
 
-                <div class="container"> 
+                <div class="container-details"> 
                     <img src="https://i.pinimg.com/736x/e6/5f/fa/e65ffad9fc1408c402b71a6ab2ef0285.jpg">
                     <p><strong>Nothings new</strong></p>
                     <p>Discount</p>

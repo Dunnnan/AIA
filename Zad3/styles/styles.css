@@ -81,6 +81,40 @@ input {
     text-align: center;
 }
 
+.container-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 25px;
+    margin: 25px;
+    border-radius: 25px;
+    background-color: aliceblue;
+
+}
+
+.container-details img {
+    width: 450px;
+    width: 250px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 25px;
+    margin: 25px;
+    border-radius: 25px;
+    background-color: aliceblue;
+
+}
+
+.loading {
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    color: #333;
+  }
+
 .button-container {
     place-items: center ;
 }
