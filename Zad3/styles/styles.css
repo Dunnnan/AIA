@@ -112,6 +112,9 @@ input {
 }
 
 .container-details {
+
+    text-align: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,6 +123,8 @@ input {
     margin: 25px;
     border-radius: 25px;
     background-color: aliceblue;
+
+    font-size: 15px;
 
 }
 
@@ -154,7 +159,6 @@ label {
     height: 15%;
 }
 
-/* Button styling */
 #reloadButton {
     margin: 15px;
     background-color: rgb(209, 228, 244);
