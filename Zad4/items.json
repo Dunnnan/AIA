@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "The Witcher 3",
+      "description": "Open-world RPG with deep storytelling.",
+      "image": "https://www.atomcomics.pl/environment/cache/images/0_0_productGfx_232812/bf7a652f1c8eb6cd6e2fab11abd5e69f.jpg",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "Minecraft",
+      "description": "Blocky creative sandbox.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7FOS59SLV3zFLkQKl4DHU9RwzH7RG2x48iA&s",
+      "rating": 4
+    }
+  ]
+  

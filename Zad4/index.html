@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./style.css" rel="stylesheet">
+  <title>Books</title>
+
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+
+  <!-- Don't use this in production: -->
+  <script src="https://unpkg.com/@babel/standalone"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>Books</h1>
+    <div id="root"></div>
+  </div>
+
+  <script type="text/babel">
+    const { useState, useEffect } = React;
+
+    const App = () => {
+    
+      useEffect(() => {
+        fetch("items.json")
+          .then((res) => res.json())
+          .then((data) => setItems(data))
+          .catch((err) => console.error("Error loading items:", err));
+      }, []);
+
+      const [items, setItems] = useState([]);
+      const [search, setSearch] = useState("");
+      const [sortKey, setSortKey] = useState("name");
+      const [newItem, setNewItem] = useState({ name: "", description: "", image: "", rating: 1 });
+
+      const handleAddItem = () => {
+        const id = Date.now();
+        setItems([...items, { ...newItem, id }]);
+        setNewItem({ name: "", description: "", image: "", rating: 1 });
+      };
+
+      const handleDelete = (id) => {
+        setItems(items.filter(item => item.id !== id));
+      };
+
+      const handleRatingChange = (id, rating) => {
+        setItems(items.map(item => item.id === id ? { ...item, rating: parseInt(rating) } : item));
+      };
+
+      const filteredItems = items
+        .filter(item => item.name.toLowerCase().includes(search.toLowerCase()) || item.description.toLowerCase().includes(search.toLowerCase()))
+        .sort((a, b) => {
+          if (sortKey === "name") return a.name.localeCompare(b.name);
+          if (sortKey === "rating") return b.rating - a.rating;
+          return 0;
+        });
+
+      return (
+        <div>
+          {/* Search and Sort */}
+          <div>
+            <input
+              type="text"
+              placeholder="Search..."
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+            />
+            <select onChange={(e) => setSortKey(e.target.value)} value={sortKey}>
+              <option value="name">Sort by Name</option>
+              <option value="rating">Sort by Rating</option>
+            </select>
+          </div>
+
+          {/* Add New Item Form */}
+          <div className="add-item-form">
+            <h3>Add New Item</h3>
+            <input
+              type="text"
+              placeholder="Name"
+              value={newItem.name}
+              onChange={(e) => setNewItem({ ...newItem, name: e.target.value })}
+            />
+            <textarea
+              placeholder="Description"
+              value={newItem.description}
+              onChange={(e) => setNewItem({ ...newItem, description: e.target.value })}
+            />
+            <input
+              type="text"
+              placeholder="Image URL"
+              value={newItem.image}
+              onChange={(e) => setNewItem({ ...newItem, image: e.target.value })}
+            />
+            <select
+              value={newItem.rating}
+              onChange={(e) => setNewItem({ ...newItem, rating: e.target.value })}
+            >
+              {[1, 2, 3, 4, 5].map(n => <option key={n} value={n}>{n} Star{n > 1 && 's'}</option>)}
+            </select>
+            <button onClick={handleAddItem}>Add Item</button>
+          </div>
+
+          {/* Item List */}
+          <div className="item-list">
+            {filteredItems.map(item => (
+              <div className="item-card" key={item.id}>
+                <img src={item.image} alt={item.name} />
+                <h4>{item.name}</h4>
+                <p>{item.description}</p>
+                <select
+                  value={item.rating}
+                  onChange={(e) => handleRatingChange(item.id, e.target.value)}
+                >
+                  {[1, 2, 3, 4, 5].map(n => (
+                    <option key={n} value={n}>{n} Star{n > 1 && 's'}</option>
+                  ))}
+                </select>
+                <button onClick={() => handleDelete(item.id)}>Delete</button>
+              </div>
+            ))}
+          </div>
+        </div>
+      );
+    };
+
+    // Render the app to the DOM
+    ReactDOM.render(<App />, document.getElementById("root"));
+  </script>
+</body>
+</html>
