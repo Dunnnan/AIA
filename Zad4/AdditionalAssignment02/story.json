@@ -1,0 +1,60 @@
+{
+    "start": "scene_1",
+    "scenes": {
+      "scene_1": {
+        "text": "You awaken, bruised and bleeding. The last thing you remember is the masked cult beating you down. Your friend pulls you from the alley.",
+        "next": "scene_decide_path"
+      },
+      "scene_decide_path": {
+        "text": "You vow to get strong and expose the cult for what they really are — sadistic pretenders who dismember and crucify for spectacle, not power. What will you do to prepare?",
+        "choices": [
+          { "text": "Train at an underground fight club", "next": "scene_fight_club" },
+          { "text": "Go to the cinema with your friend", "next": "scene_cinema" },
+          { "text": "Spend the day at the beach", "next": "scene_beach" },
+          { "text": "Hit the gym with friends", "next": "scene_gym" }
+        ]
+      },
+      "scene_fight_club": {
+        "text": "The fighters toughen your body and instincts. You grow stronger.",
+        "gain": { "strength": 2 },
+        "next": "scene_crossroads"
+      },
+      "scene_cinema": {
+        "text": "You have a relaxing time with your friend. Maybe this is more than just revenge. You grow a little closer.",
+        "gain": { "strength": 1 },
+        "next": "scene_crossroads"
+      },
+      "scene_beach": {
+        "text": "The ocean breeze calms you. You and your friend play in the waves, talk about life, and find peace.",
+        "gain": { "agility": 1 },
+        "next": "scene_crossroads"
+      },
+      "scene_gym": {
+        "text": "You hit the weights with your crew, pushing each other to the limit. Pain makes you sharper.",
+        "gain": { "strength": 1 },
+        "next": "scene_crossroads"
+      },
+      "scene_crossroads": {
+        "text": "You hear about a rogue ex-cultist who trains vigilantes. Should you continue down the path of vengeance or pursue a different direction?",
+        "choices": [
+          { "text": "Train with the rogue", "next": "scene_rogue" },
+          { "text": "Take your friend on a spontaneous trip to the mountains", "next": "scene_trip" }
+        ]
+      },
+      "scene_rogue": {
+        "text": "The rogue reveals the cult’s psychological tactics and grotesque rituals. You refine your skills for the final showdown.",
+        "gain": { "strength": 1, "agility": 1 },
+        "next": "scene_final_event"
+      },
+      "scene_trip": {
+        "text": "A peaceful trip away from all the chaos. Your friend keeps talking about the cult, but for the first time, it feels like a distant memory.",
+        "gain": { "strength": 1 },
+        "next": "scene_final_event"
+      },
+      "scene_final_event": {
+        "text": "Your friend was dragged into the cult’s dark lair. She's tied to a makeshift crucifix — they caught her photographing their horrors. The cult leader steps forward, wielding a jagged blade. It's time.",
+        "battle": true
+      }
+    }
+  }
+  

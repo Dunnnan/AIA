@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <title>Cult</title>
+
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone"></script>
+</head>
+<body class="bg-gray-900 text-white">
+  <div id="root"></div>
+
+  <script type="text/babel">
+    const { useState, useEffect } = React;
+
+    const Cult = () => {
+      const [story, setStory] = useState(null);
+      const [sceneKey, setSceneKey] = useState(null);
+      const [stats, setStats] = useState({ strength: 0, agility: 0 });
+      const [result, setResult] = useState(null);
+
+      useEffect(() => {
+        fetch("story.json")
+          .then((res) => res.json())
+          .then((data) => {
+            setStory(data);
+            setSceneKey(data.start);
+          })
+          .catch((err) => console.error("Error loading story:", err));
+      }, []);
+
+      if (!story || !sceneKey || !story.scenes[sceneKey]) {
+        return <div>Loading...</div>;
+      }
+      const scene = story.scenes[sceneKey];
+
+      const applyGains = (gain = {}) => {
+        setStats((prev) => ({
+          strength: prev.strength + (gain.strength || 0),
+          agility: prev.agility + (gain.agility || 0),
+        }));
+      };
+
+      const handleChoice = (nextKey, gain) => {
+        if (gain) applyGains(gain);
+        setSceneKey(nextKey);
+      };
+
+      const handleBattle = () => {
+        const totalPower = stats.strength + stats.agility;
+        const successChance = totalPower >= 4 ? 0.8 : 0.3;
+        const outcome = Math.random() < successChance;
+        setResult(outcome ? "success" : "failure");
+      };
+
+      if (result) {
+        return (
+          <div className="p-12 max-w-xl mx-auto">
+            {result === "success" ? (
+              <p className="text-center">
+                You dodge the cult leader’s wild slash and twist his arm in one swift motion, dislocating the elbow with a sickening crack. He howls in pain. You don’t hesitate.
+                <br />
+                You feint left, then stomp down on his foot, forcing him back just enough to line up your strike.
+                <br />
+                Your fist crashes into his solar plexus. He crumples, gasping for air, <em>writhing in agony</em>.
+                <br />
+                Without thinking, driven by the memory of your friend screaming, you thrust your thumb deep into his eye socket.
+                <br />
+                <strong className="center-box-single">You feel no remorse.</strong>
+                <br />
+                Everyone watches in stunned silence.
+                The cultists stand frozen. The only sound is the leader’s gurgling breath. Your friend stares at you, shackled and bloodied—but alive.
+                You reach the crucifix and free your friend, taking her hand as you both begin to walk toward the exit.
+                <br />
+                Suddenly, a scream pierces the silence — something jerks violently at your arm.
+                <br /><br />
+                <strong className="center-box-single">"Monster! Monster!" your friend screams in agony.</strong>
+                <br/><strong className="text-big center-box-single">You're a true monster.</strong>
+              </p>
+            ) : (
+              <p className="text-center center-box-single">
+                The cult leader’s sickle finds you. Your friend screams as they begin the ritualistic dismemberment. <br/><strong className="text-big">You were too weak.</strong>
+              </p>
+            )}
+          </div>
+        );
+      }
+      
+      return (
+        <div className="p-12 max-w-xl mx-auto bg-gray-900 text-white rounded-xl shadow-xl">
+          <p className="mb-12 text-center">{scene.text}</p>
+
+          {scene.choices && (
+            <div className="space-y-2 center-box">
+              {scene.choices.map((choice, i) => (
+                <button
+                  key={i}
+                  className="p-2 bg-blue-600 rounded hover:bg-blue-500"
+                  onClick={() => handleChoice(choice.next, scene.gain)}
+                >
+                  {choice.text}
+                </button>
+              ))}
+            </div>
+          )}
+
+          {scene.next && !scene.choices && (
+            <div className="space-y-2 center-box">
+                <button
+                className="mt-12 p-2 bg-green-600 rounded hover:bg-green-500"
+                onClick={() => handleChoice(scene.next, scene.gain)}
+                >
+                Continue
+                </button>
+            </div>
+          )}
+
+          {scene.battle && (
+            <div className="space-y-2 center-box">
+                <button
+                className="mt-12 p-2 bg-red-600 rounded hover:bg-red-500"
+                onClick={handleBattle}
+                >
+                Face the Cult Leader
+                </button>
+            </div>
+
+          )}
+
+          {/*<div className="mt-6 text-center">
+            <p><strong>Strength:</strong> {stats.strength}</p>
+            <p><strong>Agility:</strong> {stats.agility}</p>
+          </div>*/}
+        </div>
+      );
+    };
+
+    // Render the app to the DOM
+    ReactDOM.render(<Cult />, document.getElementById("root"));
+  </script>
+</body>
+</html>
