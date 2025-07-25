@@ -14,26 +14,43 @@
           { "text": "Hit the gym with friends", "next": "scene_gym" }
         ]
       },
+
       "scene_fight_club": {
         "text": "The fighters toughen your body and instincts. You grow stronger.",
         "gain": { "strength": 2 },
         "next": "scene_crossroads"
       },
+
       "scene_cinema": {
         "text": "You have a relaxing time with your friend. Maybe this is more than just revenge. You grow a little closer.",
-        "gain": { "strength": 1 },
+        "gain": { "strength": 0 },
+        "next": "scene_optional_cinema"
+      },
+      "scene_optional_cinema": {
+        "text": "You promised to take revenge on the cult? Who the hell would go to the cinema to find strength?! Pathetic... Here - I will boost your strength for being dumbass.",
+        "optional": 0.1,
+        "gain": { "strength": 10 },
         "next": "scene_crossroads"
       },
+
       "scene_beach": {
-        "text": "The ocean breeze calms you. You and your friend play in the waves, talk about life, and find peace.",
-        "gain": { "agility": 1 },
+      "text": "The ocean breeze calms you. You and your friend play in the waves, talk about life, and find peace.",
+      "gain": { "agility": 0 },
+      "next": "scene_optional_shell"
+      },
+      "scene_optional_shell": {
+        "text": "While walking on the sand, you find a beautiful, shimmering shell. It seems almost magical, you gain enormous agility while keeping it with yourself.",
+        "optional": 0.5,
+        "gain": { "agility": 3 },
         "next": "scene_crossroads"
       },
+
       "scene_gym": {
         "text": "You hit the weights with your crew, pushing each other to the limit. Pain makes you sharper.",
         "gain": { "strength": 1 },
         "next": "scene_crossroads"
       },
+
       "scene_crossroads": {
         "text": "You hear about a rogue ex-cultist who trains vigilantes. Should you continue down the path of vengeance or pursue a different direction?",
         "choices": [
@@ -41,11 +58,19 @@
           { "text": "Take your friend on a spontaneous trip to the mountains", "next": "scene_trip" }
         ]
       },
+
       "scene_rogue": {
         "text": "The rogue reveals the cult’s psychological tactics and grotesque rituals. You refine your skills for the final showdown.",
         "gain": { "strength": 1, "agility": 1 },
+        "next": "scene_optional_rogue_praise"
+      },
+      "scene_optional_rogue_praise": {
+        "text": "The rogue watches your movements and nods in approval, impressed by your progress. He teaches you forbidden technique.",
+        "optional": 0.5,
+        "gain": { "strength": 1 },
         "next": "scene_final_event"
       },
+
       "scene_trip": {
         "text": "A peaceful trip away from all the chaos. Your friend keeps talking about the cult, but for the first time, it feels like a distant memory.",
         "gain": { "strength": 1 },

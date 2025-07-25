@@ -35,8 +35,17 @@
       if (!story || !sceneKey || !story.scenes[sceneKey]) {
         return <div>Loading...</div>;
       }
+
       const scene = story.scenes[sceneKey];
 
+      // Obsługa sceny opcjonalnej: losujemy i jeśli nie trafimy, przechodzimy do next
+      if (scene.optional !== undefined) {
+        if (Math.random() > scene.optional) {
+          setSceneKey(scene.next);
+          return null;
+        }
+      }
+      
       const applyGains = (gain = {}) => {
         setStats((prev) => ({
           strength: prev.strength + (gain.strength || 0),
